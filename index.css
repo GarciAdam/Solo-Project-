@@ -1,0 +1,31 @@
+
+
+.topnav{
+font-size: 40px;
+background-color:black;
+/*background-color:#E80000;*/
+position: fixed;
+font-family: Helvetica ;
+color: azure;
+text-align: end;
+position: fixed;
+top: 0;
+padding: -15px 100px;
+height: 40px;
+
+}
+
+ul{
+  
+list-style-type: none;
+margin-top: -10px;
+padding: 0;
+}
+
+li{
+    margin: 10px;
+    padding: 0;
+    display: inline-block;
+
+
+}
