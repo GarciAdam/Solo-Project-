@@ -46,3 +46,20 @@ body{
     display: grid;
     grid-template-columns: auto
 }
+
+img{
+   margin: auto;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   width: 100%;
+   /* border-radius: 5%; */
+   width:400px;
+   height:200px;
+   border: 2px solid  rgba( 232, 0,0,1)  ;
+   display: flex ;
+    /* border-color: #e80000; */
+}
+
+img:hover {
+    transform: scale(1.4); 
+   }
