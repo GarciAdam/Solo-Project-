@@ -15,7 +15,7 @@ $(document).ready(function () {
     $(".mouse").hide();
     $(".about").hide();
     $(".home").hide();
-    $(".rec").hide();
+    // $(".rec").hide();
     $(".headd").hide();
     $(".padd").hide();
     $(".fr").hide();
@@ -63,7 +63,7 @@ $("#hd").on("click",function () {
 });
 
 
-$("#hd").on("click",function () {
+$("#mp").on("click",function () {
   $(".Keyboard").hide();
   $('.fr').hide();
   $(".about").hide();
@@ -73,7 +73,7 @@ $("#hd").on("click",function () {
   $(".headd").hide();
   $(".padd").show();
   $(".greeting").hide();
-})
+});
 
 
 
@@ -105,7 +105,25 @@ $("#abt").on("click",function () {
   $(".frm").hide();
   $(".home").hide();
   $(".about").show();
-  $(".greeting").show();
+  $(".greeting").hide();
+});
+
+$('input').on("click",function(){
+	$(".rec").hide();
+	$(".vbar").hide();
+	$("Keyboard").hide();
+	$(".mouse").hide();
+	$(".headd").hide();
+	$(".padd").hide();
+	$(".frm").hide();
+	$(".about").hide();
+	$(".greeting").hide();
+	$(".fr").show();
 });
 
 
+
+});
+
+
+  

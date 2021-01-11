@@ -37,8 +37,6 @@ li{
     position: fixed;
     top: 71px;
     height: 100%;
-
-  
     width: 290px;
  background: size 120px;
  margin-top: -30px;
@@ -83,13 +81,17 @@ h2 {
 	font-size: 50px;
 	padding: 5px 70px;
 	background-color: red;
+  border-radius: 20px;
+  color: azure;
+  opacity: -1;
+
 
 }
 
 
 .best {
 	display: grid;
-	grid-template-columns: auto;
+	list-style: none;
 }
 
 
@@ -98,7 +100,7 @@ h2 {
 
 .column {
     display: grid;
-    grid-template-columns: auto
+    grid-template-columns: auto auto auto
 }
 
 img{
@@ -126,3 +128,9 @@ img:hover {
 	top: 200px
 }
 
+ p{
+       color:azure;
+       font-size: 60px;
+       font-family: Arial, Helvetica, sans-serif;
+
+   }  
