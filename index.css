@@ -15,7 +15,7 @@ padding: -15px 100px;
 width: -webkit-fill-available;
 height: 40px;
 z-index: 30;
-height: 8vh;
+height: 6vh;
 background-color: #333;
 
 }
@@ -120,10 +120,10 @@ h2{
     margin-top: 190px;
     font-size: 55px;
     padding: 5px 70px;
-    background-color: #E80000;
+    background-color: black;
     border-radius: 20px;
     color: azure;
-    opacity: 4;
+    opacity: 0.8;
 }
 
 .best{
@@ -160,10 +160,11 @@ input{
     background-color: #e80000;
     color: azure;
 font-size: 30px;
+border-radius: 50%
 }
 
 .about{
-    background-color:grey;
+    background-color:black;
     font-size:60px;
     color:azure;
     border-style: solid;
@@ -176,6 +177,7 @@ font-size: 30px;
      
      h3{
          font-size: 60px;
+         color: red ;
      }
      h4{
          font-size: 30px;
