@@ -157,10 +157,12 @@ img{
 input{
     margin-left: 240px;
     margin-bottom:35px ;
-    background-color: #e80000;
+    /*background-color: #e80000;*/
+     background-color: black;
     color: azure;
-font-size: 30px;
-border-radius: 50%
+    font-size: 30px;
+    /*border: red;
+*/
 }
 
 .about{
@@ -211,7 +213,7 @@ border-radius: 50%
          
 
 
-   p{
+   p {
        color:azure;
        font-size: 60px;
        font-family: Arial, Helvetica, sans-serif;
@@ -232,3 +234,18 @@ border-radius: 50%
 
 
          
+label {
+  color: azure;
+  font-size: 40px
+}
+
+#contact,
+#home,
+#abt {
+  margin-top: -14px
+}
+
+
+a {
+  margin-right: -1px;
+}
