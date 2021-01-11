@@ -11,6 +11,7 @@ $(document).ready(function () {
   $('.greeting').hide();
 
   $("#hbtn").on("click", function () {
+
     $(".mouse").hide();
     $(".about").hide();
     $(".home").hide();
@@ -25,18 +26,19 @@ $(document).ready(function () {
 
 
 $("#key").on("click", function () {
+  $('.fr').hide();
   $(".mouse").hide();
   $(".about").hide();
   $(".home").hide();
   $(".rec").hide();
   $(".headd").hide();
-  $(".pad").hide();
+  $(".padd").hide();
   $(".Keyboard").show();
   $(".greeting").hide();
 
 });
 
-$(."#ms").on("click",function () {
+$("#ms").on("click",function () {
   $(".Keyboard").hide();
   $(".fr").hide();
   $(".about").hide();
@@ -46,22 +48,38 @@ $(."#ms").on("click",function () {
   $(".padd").hide();
   $(".mouse").show();
   $(".greeting").hide();
-})
+});
 
-$(."#hd").on("click",function () {
+$("#hd").on("click",function () {
   $(".Keyboard").hide();
   $(".fr").hide();
   $(".about").hide();
   $(".home").hide();
   $(".rec").hide();
-  $(".mousse").hide();
+  $(".mouse").hide();
   $(".padd").hide();
   $(".headd").show();
   $(".greeting").hide();
+});
+
+
+$("#hd").on("click",function () {
+  $(".Keyboard").hide();
+  $('.fr').hide();
+  $(".about").hide();
+  $(".home").hide();
+  $(".rec").hide();
+  $(".mouse").hide();
+  $(".headd").hide();
+  $(".padd").show();
+  $(".greeting").hide();
 })
 
+
+
+
 $("#home").on("click",function () {
-  $(".rec").hide();
+  $(".rec").show();
   $(".fr").hide();
   $(".about").hide();
   $(".vbar").hide();
@@ -70,5 +88,24 @@ $("#home").on("click",function () {
   $(".headd").hide();
   $(".padd").hide();
   $(".frm").hide();
-  $('.greeting'.hide();
-   $(".home").show();
+  $(".home").show();
+  $('.greeting').hide();
+   
+ });
+
+$("#abt").on("click",function () {
+  $(".rec").hide();
+  $(".about").hide();
+  $('.fr').hide();
+  $(".vbar").hide();
+  $(".Keyboard").hide();
+  $(".mouse").hide();
+  $(".headd").hide();
+  $(".padd").hide();
+  $(".frm").hide();
+  $(".home").hide();
+  $(".about").show();
+  $(".greeting").show();
+});
+
+
