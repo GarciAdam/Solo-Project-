@@ -74,9 +74,25 @@ h2 {
 	position: auto;
 	left: 20px
 	top:100px;
-	
+}
+
+
+#htbn {
+	margin-left: 100px;
+	margin-top: 170px;
+	font-size: 50px;
+	padding: 5px 70px;
+	background-color: red;
 
 }
+
+
+.best {
+	display: grid;
+	grid-template-columns: auto;
+}
+
+
 
 
 
@@ -102,4 +118,11 @@ img:hover {
     transform: scale(1.4); 
    }
 
+#key,
+#ms,
+#hd,
+#mp {
+	position: relative;
+	top: 200px
+}
 
