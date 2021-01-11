@@ -14,6 +14,9 @@ top: 0;
 padding: -15px 100px;
 width: -webkit-fill-available;
 height: 40px;
+z-index: 30;
+height: 8vh;
+background-color: #333;
 
 }
 /*ul{
@@ -21,6 +24,7 @@ height: 40px;
 list-style-type: none;
 margin-top: -10px;
 padding: 0;
+
  
 
 }
@@ -33,19 +37,20 @@ li{
 
 
 }*/
-
-
-
+li{
+cursor: pointer
+}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   background-color: #333;
+  z-index: 10
 }
 
 li {
   float: left;
+  cursor: pointer
 }
 
 li a {
@@ -159,15 +164,15 @@ font-size: 30px;
 
 .about{
     background-color:grey;
-    margin-left: 50px;
-    margin-top: 50px;
-    margin-right: 50px;
     font-size:60px;
     color:azure;
     border-style: solid;
     opacity: 0.8;
     border-radius: 10px;
-    }
+    position: relative;
+    top: 30vh;
+    left: -5vw
+     }
      
      h3{
          font-size: 60px;
@@ -177,15 +182,15 @@ font-size: 30px;
      }
 
      .fr{
+      position: relative;
         background-color:grey;
-        margin-left: 50px;
-        margin-top: 50px;
-        margin-right: 50px;
+        margin-top: 10vh;
         font-size:40px;
         color:black;
         border-style: solid;
         opacity: 0.8;
         border-radius: 10px;
+        left: -5vw
        
         }
      
