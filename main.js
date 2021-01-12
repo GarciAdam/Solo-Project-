@@ -167,6 +167,7 @@ $('#submit').on("click",function() {
   var adresse = document.getElementById("adresse").value;
   var pnum = document.getElementById("pnum").value; 
       if (fname === " " || lname === " " || adresse === " " || pnum === " ") {
+        return 
         alert("Sry You Need To Try Again")
       }
       var customers = []
@@ -175,7 +176,7 @@ $('#submit').on("click",function() {
        customer.fname=fname,
        customer.lname=lname,
        customer.adresse=adresse,
-       customer.pnum=pnum,
+       customer.pnum=pnum
 
       
       customers.push(customer);

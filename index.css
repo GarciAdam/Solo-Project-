@@ -274,7 +274,11 @@ a {
 figcaption {
   color: azure;
   position: center;
-  font-size: 30px
- /* padding-top: -15px;*/
-  padding-
+  font-size: 40px;
+}
+
+
+
+.buy {
+  margin-left: 20px
 }
