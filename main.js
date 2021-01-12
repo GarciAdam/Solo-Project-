@@ -7,6 +7,8 @@ $(document).ready(function () {
   $(".padd").hide();
   $(".frm").hide();
   $(".about").hide();
+  $(".monitors").hide()
+
   $('.fr').hide();
   $('.greeting').hide();
 
@@ -18,6 +20,7 @@ $(document).ready(function () {
     $(".headd").hide();
     $(".padd").hide();
     $('.fr').hide();
+    $(".monitors").hide()
     $(".rec").show();
     $(".vbar").show();
   });
@@ -30,6 +33,7 @@ $(document).ready(function () {
     $(".rec").hide();
     $(".headd").hide();
     $(".padd").hide();
+    $(".monitors").hide();
     $(".Keyboard").show();
     $('.greeting').hide();
   });
@@ -42,6 +46,7 @@ $(document).ready(function () {
     $(".rec").hide();
     $(".headd").hide();
     $(".padd").hide();
+    $(".monitors").hide();
     $(".mouse").show();
     $('.greeting').hide();
   });
@@ -52,6 +57,7 @@ $(document).ready(function () {
     $(".about").hide();
     $(".home").hide();
     $(".rec").hide();
+    $(".monitors").hide();
      $(".mouse").hide();
      $(".padd").hide();
      $(".headd").show();
@@ -64,6 +70,7 @@ $(document).ready(function () {
     $(".about").hide();
     $(".home").hide();
     $(".rec").hide();
+    $(".monitors").hide();
     $(".mouse").hide();
     $(".headd").hide();
     $(".padd").show();
@@ -77,6 +84,7 @@ $(document).ready(function () {
     $(".vbar").hide();
     $(".Keyboard").hide();
     $(".mouse").hide();
+    $(".monitors").hide();
     $(".headd").hide();
     $(".padd").hide();
     $(".frm").hide();
@@ -91,6 +99,7 @@ $(document).ready(function () {
     $(".Keyboard").hide();
     $(".mouse").hide();
     $(".headd").hide();
+    $(".monitors").hide();
     $(".padd").hide();
     $(".frm").hide();
     $(".home").hide()
@@ -108,11 +117,26 @@ $(document).ready(function () {
     $(".headd").hide();
     $(".padd").hide();
     $(".frm").hide();
+    $(".monitors").hide();
     $(".about").hide();
     $('.greeting').hide();
     $('.fr').show();
 
   })
+
+  $("#mn").on("click", function () {
+    $(".Keyboard").hide();
+    $('.fr').hide();
+    $(".about").hide();
+    $(".home").hide();
+    $(".rec").hide();
+    $(".mouse").hide();
+    $(".headd").hide();
+    $(".padd").hide();
+    $('.greeting').hide();
+    $(".monitors").show();
+
+  });
 
  
 function scrollFunction() {

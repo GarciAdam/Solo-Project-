@@ -219,6 +219,7 @@ input{
        font-family: Arial, Helvetica, sans-serif;
 
    }  
+#mn,
 #key,
 #ms, 
 #hd,
@@ -248,4 +249,23 @@ label {
 
 a {
   margin-right: -1px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #purple; 
+}
+ 
+ Handle 
+::-webkit-scrollbar-thumb {
+  background: #purple; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #purple; 
 }
