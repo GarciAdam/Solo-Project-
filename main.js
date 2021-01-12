@@ -166,10 +166,12 @@ $('#submit').on("click",function() {
   var lname = document.getElementById("lname").value;
   var adresse = document.getElementById("adresse").value;
   var pnum = document.getElementById("pnum").value; 
-      if (fname === " " || lname === " " || adresse === " " || pnum === " ") {
-        return 
+  console.log(fname, lname , adresse , pnum)
+      if (fname === "" || lname === "" || adresse === "" || pnum === "") {
+        
         alert("Sry You Need To Try Again")
       }
+
       var customers = []
       var customer = {}
 
