@@ -269,3 +269,12 @@ a {
 ::-webkit-scrollbar-thumb:hover {
   background: #purple; 
 }
+
+
+figcaption {
+  color: azure;
+  position: center;
+  font-size: 30px
+ /* padding-top: -15px;*/
+  padding-
+}
